@@ -22,10 +22,36 @@
     font-weight: 700;
     font-style: normal;
   }
-  /* section title card title */
+  /* section title card title logo */
     .extrabold {
     font-family: "Azeret Mono", serif;
     font-optical-sizing: auto;
     font-weight: 800;
     font-style: normal;
+  }
+  /* shared styles */
+  .primary-color{
+    color: #0D1321;
+  }
+  /* why devlopment card title */
+  .secondary-color{
+    color: rgba(13, 19, 33, 0.7);
+  }
+  /* support input */
+  .third-color{
+    color: rgba(13, 19, 33, 0.4);
+  }
+  .primary-btn{
+    padding: 17px 24px;
+    border: 1px solid #0D1321;
+    border-radius: 5px;
+  }
+  .secondary-btn{
+    padding: 12px 20px;
+    border: 1px solid #0D1321;
+  }
+  /* border */
+  .border{
+    border: 1px solid rgba(13, 19, 33, 0.2) ;
+    border-radius: 16px;
   }
