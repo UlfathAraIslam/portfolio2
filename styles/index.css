@@ -1,0 +1,31 @@
+/* Azeret Mono font */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+  /* details , email placeholder */
+    .regular {
+    font-family: "Azeret Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  /* button , footer*/
+  .semibold{
+    font-family: "Azeret Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+  /* email-section-header */
+  .bold{
+    font-family: "Azeret Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+  }
+  /* section title card title */
+    .extrabold {
+    font-family: "Azeret Mono", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+  }
