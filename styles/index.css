@@ -69,5 +69,21 @@
   }
   .download-btn a{
     text-decoration: none;
-
+  }
+  /* banner */
+  .banner{
+    flex-direction: column;
+    background-image: url(../assets/Hero-bg.png);
+    height: 60vh;
+    margin-top:36px ;
+  }
+  .contact-btn{
+    padding:21px 24px;
+    color:#FFFFFF ;
+    background-color:#0D1321 ;
+    border-radius: 16px;
+  }
+  .contact-btn a{
+    text-decoration: none;
+    color: #FFFFFF;
   }
