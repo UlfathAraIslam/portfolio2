@@ -30,6 +30,11 @@
     font-style: normal;
   }
   /* shared styles */
+  
+  main{
+    max-width: 1140px;
+    margin: 0 auto;
+  }
   .primary-color{
     color: #0D1321;
   }
@@ -86,7 +91,6 @@
   }
   /* banner */
   .banner{
-    flex-direction: column;
     background-image: url(../assets/Hero-bg.png);
     height: 70vh;
     margin-top:36px ;
@@ -119,8 +123,17 @@
 .dev-box{
   justify-content: space-between;
 }
+.dev-box1, .dev-box3{
+  background: linear-gradient(to left, transparent, #FFFFFF);
+  border-radius: 16px;
+
+}
 .dev-box2{
   flex-direction: row-reverse;
+  justify-content: start;
+  gap: 24px;
+  background: linear-gradient(to right, transparent, #FFFFFF);
+  border-radius: 16px;
 }
 /* inspiration */
 .inspiration{
@@ -164,5 +177,39 @@
   justify-content: center;
   align-items: center;
   padding: 40px;
-  gap: 24px;
+  /* gap: 24px; */
+}
+/* support */
+/* TODO: background img shadow effect */
+.support{
+  background-image: url(../assets/handshake.jpg);
+  height: 313px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.input-box{
+  display: flex;
+  gap: 10px;
+  border: none;
+  border-radius: 16px;
+}
+.input{
+  padding: 20px 200px;
+  outline: none;
+}
+/* .social-icon */
+footer{
+  display: flex;
+  justify-content: space-around;
+}
+.social-icon{
+  display: flex;
+  gap: 10px;
+
 }
