@@ -158,3 +158,11 @@
   gap: 24px;
   border-radius: 16px;
 }
+/* next-target */
+.next-target{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  gap: 24px;
+}
